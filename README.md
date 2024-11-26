@@ -1,4 +1,4 @@
-**#Brazilian League Forecast** ⚽
+#**Brazilian League Forecast** ⚽
 
 A forecasting project focused on the Brazilian Football League (Brasileirão), leveraging data analysis and machine learning to predict match outcomes, rankings, and other insights.
 
