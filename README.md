@@ -75,7 +75,7 @@ To explore these analyses yourself, simply clone the repository and run the note
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Gronoxx/Brazilian-League-Forecast.git](https://github.com/Gronoxx/Brazilian-League-Forecast.git)
+git clone https://github.com/Gronoxx/Brazilian-League-Forecast.git
 
 # Navigate to the project directory
 cd Brazilian-League-Forecast
