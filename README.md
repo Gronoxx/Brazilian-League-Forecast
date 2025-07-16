@@ -28,7 +28,7 @@ The central analyses aim to answer four key questions:
 3.  Does the **time of day** a match is played have any real impact on goal-scoring?
 4.  Is modern football truly becoming **more defensive** over time?
 
-## 📊 Analyses and Key Findings
+## Analyses and Key Findings
 
 Each question was investigated using a dedicated data analysis notebook. Here are the main findings:
 
@@ -36,7 +36,7 @@ Each question was investigated using a dedicated data analysis notebook. Here ar
 > Can we use a team's track record to forecast its success in an upcoming season?
 
 -   **Methodology:** A **Logistic Regression** model was trained on data from 2003-2018. The features consisted of a team's history of finishing in the Top 5 in the preceding years.
--   [cite_start]**💡 Key Finding:** The model achieved an impressive **97.7% accuracy** in predicting the Top 5 for the 2019 season[cite: 3]. This confirms that past performance is an overwhelmingly strong predictor of future success, highlighting the consistent dominance of a few elite teams in the league.
+-   **💡 Key Finding:** The model achieved an impressive **97.7% accuracy** in predicting the Top 5 for the 2019 season. This confirms that past performance is an overwhelmingly strong predictor of future success, highlighting the consistent dominance of a few elite teams in the league.
 
 ---
 
@@ -44,7 +44,7 @@ Each question was investigated using a dedicated data analysis notebook. Here ar
 > Is the "home advantage" a real, quantifiable phenomenon?
 
 -   **Methodology:** A statistical analysis of match results from the Brazilian league was performed, comparing goals scored and matches won by home vs. away teams.
--   **💡 Key Finding:** The data shows a powerful home-field advantage. [cite_start]Home teams won **4,001 matches** compared to just **1,901** for away teams and scored over **50% more goals on average** (1.55 for home teams vs. 1.02 for away teams)[cite: 1].
+-   **💡 Key Finding:** The data shows a powerful home-field advantage. Home teams won **4,001 matches** compared to just **1,901** for away teams and scored over **50% more goals on average** (1.55 for home teams vs. 1.02 for away teams).
 
 ---
 
@@ -52,7 +52,7 @@ Each question was investigated using a dedicated data analysis notebook. Here ar
 > Does the kickoff time affect player performance and the number of goals scored?
 
 -   **Methodology:** World Cup match data was cleaned and grouped by start time. A regression analysis and Pearson correlation were used to measure the relationship between match time and total goals.
--   [cite_start]**💡 Key Finding:** The analysis revealed a **near-zero correlation (0.004)**, indicating no statistically significant link between the time of day a match is played and the number of goals scored[cite: 2].
+-   **💡 Key Finding:** The analysis revealed a **near-zero correlation (0.004)**, indicating no statistically significant link between the time of day a match is played and the number of goals scored.
 
 ---
 
@@ -60,16 +60,16 @@ Each question was investigated using a dedicated data analysis notebook. Here ar
 > Has football become more offensive or defensive over time?
 
 -   **Methodology:** An OLS (Ordinary Least Squares) regression was performed on the total goals per match for every World Cup year.
--   [cite_start]**💡 Key Finding:** The regression model showed a **statistically significant negative coefficient** for the `Year` variable[cite: 4]. This suggests that, on average, the number of goals scored per match has slightly decreased over the history of the World Cup, lending data-driven support to the idea that modern football has become more strategically defensive.
+-   **💡 Key Finding:** The regression model showed a **statistically significant negative coefficient** for the `Year` variable. This suggests that, on average, the number of goals scored per match has slightly decreased over the history of the World Cup, lending data-driven support to the idea that modern football has become more strategically defensive.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Data Manipulation & Analysis:** `Pandas`, `NumPy`
 -   **Statistical Modeling:** `Scikit-learn`, `Statsmodels`, `SciPy`
 -   **Data Visualization:** `Matplotlib`, `Seaborn`
 -   **Environment:** `Jupyter / Google Colab Notebooks`
 
-## 🚀 Getting Started
+## Getting Started
 
 To explore these analyses yourself, simply clone the repository and run the notebooks in an environment with the required libraries installed.
 
